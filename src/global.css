@@ -15,3 +15,43 @@
     --cor-principal: #213547;
     --cor-secundaria: #fcfcfc;
 }
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 8px; /* espaço entre input e botão */
+}
+.input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.search-btn {
+    padding: 10px;
+    padding-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.search-btn:hover {
+    background-color: #1a2733; /* tom mais escuro no hover */
+}

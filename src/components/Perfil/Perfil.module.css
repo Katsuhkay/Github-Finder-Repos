@@ -1,4 +1,4 @@
-.header {
+.perfil { /* container/card do perfil */
     background-color: var(--cor-principal);
     display: flex;
     flex-direction: column;
@@ -6,16 +6,35 @@
     padding: 180px 0px 40px;
     margin-bottom: 80px;
 }
-
-.avatar {
+.avatar { /* Container do avatar */
     width: 160px;
     height: 160px;
     border-radius: 50%;
     border: 2px solid var(--cor-secundaria);
 }
-
-.name {
+.info { /* coluna de textos */
+    color: var(--cor-secundaria);
+    padding: 0px 20px;
+}
+.name { /* título/nome */
     font-size: 18px;
     color: var(--cor-secundaria);
     padding-top: 15px;
+}
+.bio { /* descrição */ 
+    padding: 10px 0px;
+}
+.stats { /* lista de números */ 
+    list-style: none;
+}
+.location { /* localização */ 
+    padding: 10px 0px;
+}
+.loading { /* estado de carregando */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: var(--cor-secundaria);
+    font-size: 24px;
 }
